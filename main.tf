@@ -4,5 +4,5 @@ provider "aws" {
 }
 
 resource "aws_iam_user" "my_iam_user" {
-    name = "rit_demo_iam_user"
+    name = "rit_demo_iam_user_${var.environment}"
 }
