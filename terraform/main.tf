@@ -3,6 +3,12 @@ provider "aws" {
     version = "~> 2.46"
 }
 
+terraform {
+  backend "local" {
+	
+  }
+}
+
 variable "region" {
 
 }
