@@ -1,0 +1,4 @@
+{
+	"short": "Create GCP bucket",
+	"long": "Use this formula to create a new Google Cloud Platform bucket"
+}
